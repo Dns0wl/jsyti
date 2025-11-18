@@ -1,0 +1,34 @@
+/* Order actions styling for HW Invoice PDF */
+.wc-action-button-hwip_invoice_pdf,
+.wc-action-button-hwip_invoice_pdf_regen,
+.woocommerce-action-button--hwip_invoice_pdf,
+.woocommerce-action-button--hwip_invoice_pdf_regen {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wc-action-button-hwip_invoice_pdf::after,
+.woocommerce-action-button--hwip_invoice_pdf::before {
+    font-family: Dashicons;
+    font-size: 16px;
+    content: "\f497";
+}
+
+.wc-action-button-hwip_invoice_pdf_regen::after,
+.woocommerce-action-button--hwip_invoice_pdf_regen::before {
+    font-family: Dashicons;
+    font-size: 16px;
+    content: "\f463";
+}
+
+.wc-action-button-hwip_invoice_pdf,
+.woocommerce-action-button--hwip_invoice_pdf {
+    color: #111;
+}
+
+.wc-action-button-hwip_invoice_pdf_regen,
+.woocommerce-action-button--hwip_invoice_pdf_regen {
+    color: #7a2fdd;
+}

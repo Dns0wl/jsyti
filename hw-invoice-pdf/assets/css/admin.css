@@ -1,0 +1,51 @@
+.hwip-wrap {
+    max-width: 1100px;
+}
+.hwip-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 24px;
+    margin-top: 20px;
+}
+.hwip-card {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.05);
+    padding: 24px;
+}
+.hwip-card h2 {
+    margin-top: 0;
+    font-size: 20px;
+}
+.hwip-field {
+    margin-bottom: 18px;
+    display: flex;
+    flex-direction: column;
+}
+.hwip-field label {
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+.hwip-field input[type="text"],
+.hwip-field input[type="email"],
+.hwip-field input[type="url"],
+.hwip-field textarea,
+.hwip-field select {
+    width: 100%;
+}
+.hwip-media-control {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.hwip-media-preview {
+    max-width: 180px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+.hwip-checkbox label {
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    font-weight: 500;
+}
